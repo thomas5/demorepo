@@ -3,9 +3,10 @@ Demonstration
 
 Test
 
-graph LR;
-    id;
-
-	
-graph TB;
-    A-->B;
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
