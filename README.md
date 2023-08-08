@@ -5,3 +5,7 @@ Test
 
 graph LR;
     id;
+
+	
+graph TB;
+    A-->B;
